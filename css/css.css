@@ -1,0 +1,359 @@
+body {
+	background-image: linear-gradient(to right,#161E3C,#1b1c1d);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	text-align: center;
+	word-wrap:break-word;
+	color: black !important;
+}
+div.mainIntro {
+	background: -webkit-linear-gradient(#F00,black);
+	background: linear-gradient(#F00,black);; 
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height:200px;
+	display: inline-block;
+	margin: 0;
+}
+#gridContent {
+	text-align: left;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+div.mainContent{
+	width: 85%;
+	background-color: white;
+	min-height: auto;
+	text-align: left;
+	font-size: 18px;
+	position: relative;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+.mainContentPadding {
+	padding: 50px;
+}
+#leftContentMain {
+	width: 100%;
+	background-color: black;
+	height: auto;
+	min-height: 400px;
+	text-align: left;
+	font-size: 18px;
+	position: relative;
+	display: inline-block;
+	padding: 5px;
+	padding-left: 0;
+	margin: 0 !important;
+	margin-left: 5px;
+	padding-bottom: 25px;
+	color:white;
+}
+#leftContent {
+	width: 100%;
+	background-color: white;
+	height: auto;
+	min-height: 400px;
+	text-align: left;
+	font-size: 18px;
+	position: relative;
+	display: inline-block;
+	padding: 5px;
+	padding-left: 0;
+	margin: 0 !important;
+	padding-bottom: 25px;
+}
+#rightContent {
+	width: 100%;
+	background-color: white;
+	min-height: auto;
+	text-align: left;
+	font-size: 18px;
+	position: relative;
+	display: inline-block;
+	margin: 0 !important;
+	padding: 5px !important;
+	padding-bottom: 25px;
+}
+.loginContainer {
+	width: 40%;
+	height: auto;
+	position: relative;
+	display: inline-block;
+	text-align: left;
+	padding: 30px;
+	background-color: #ddd9ce;
+	border-radius: 30px;
+}
+.loginContainerMargin {
+	text-align: center;
+}
+div.post {
+	background-color: #efefef;
+	color:black;
+	width:500px;
+	padding:30px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+div.postHeader {
+	font-size: 22px;
+	font-weight: bold;
+}
+div.postSubtitle {
+	color: gray;
+	font-size: 16px;
+	font-weight: bold;
+}
+div.postText {
+	font-size: 16px;
+	font-weight: bold;
+}
+.card {
+	width:422px !important;
+	height: 435px !important;
+	border-radius: 0 !important;
+	border:0 !important;
+	padding: 0 !important;
+	text-align: left !important;
+}
+.card img {
+	width:100%;
+	height: 220px !important;
+	padding: 0 !important;
+	border: 0 !important;
+}
+.card .content {
+	width: 100%;
+}
+.description {	
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis !important;
+	max-height: 100px;
+	max-lines:2;
+}
+.header {
+	color: black !important;
+	font-weight: bold !important;
+}
+
+.comment .avatar{
+	width: 50px !important;
+	height: 50px !important;
+	margin-right: 15px !important;
+}
+.comments{
+	padding-top: 25px !important;
+	padding-bottom: 25px !important;	
+}
+#searchForm {
+	margin-top: 30px;
+}
+#sticky {
+	width:100% !important;
+	z-index: 200 !important;
+}
+.contentHeader {
+	font-size: 34px;
+	font-weight: bold;
+	color:black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	line-height: 1;
+	text-transform: uppercase;
+}
+.contentSubtitle {
+	font-size: 24px;
+	color:black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+.contentMeta {
+	font-size: 20px;
+	color:black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	line-height: 25px;
+}
+.contentText {
+	text-indent: 60px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+.contentImage {
+	width: 100%;
+}
+.contentImage img{
+	width: 100%;
+	max-height: 400px;
+}
+.by {
+	color:black;
+	width: 100%;
+}
+.edited {
+	font-size: 12px;
+	font-weight: bold;
+	color: black;
+}
+.edited2 {
+	font-size: 8px;
+	font-weight: bold;
+	color: black;
+}
+#searchButton {
+	color:black;
+	margin-top:10px;
+}
+#searchField {
+	width: 70%;
+}
+.introMenu {
+	background-color: #1e1e1e;
+	width: 85%;
+	text-align: center;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+.introArea {
+	width: 85%;
+	height:500px;
+	background-color: #1e1e1e;
+	text-align: center;
+	display: inline-block;
+}
+
+.slider {
+	width: 100%;
+	height:500px;
+}
+
+h1 {
+	font-size:40px !important;
+}
+#grid {
+	padding-top: 30px !important;
+	margin: 0 !important;
+}
+.linearLeft {
+	background-image: linear-gradient(#F00,#990000);
+	color:white;
+	font-weight: bold;
+	padding:6px;
+	margin-bottom: 6px;
+	text-align: center;
+	text-transform: uppercase; 
+}
+.linearRight {
+	background-image: linear-gradient(#F00,#990000);
+	color:black;
+	font-weight: bold;
+	padding:6px;
+	margin-bottom: 6px;
+	text-align: center;
+	text-transform: uppercase; 
+}
+#footer {
+	width: 100%;
+	min-height:auto;
+	color: black;
+	display: inline-block;
+	background-color: white;
+	border-top: 3px solid #eee;
+}
+#image-preview {
+  	width: 80%;
+  	position: relative;
+  	overflow: hidden;
+  	background-color: #efefef;
+  	color: black;
+  	border-radius: 20px;
+  	background-size:cover !important;
+  	background-position: center !important;
+  	background-repeat: no-repeat !important;
+}
+#image-preview2 {
+  	width: 100%;
+  	position: relative;
+  	overflow: hidden;
+  	background-color: #efefef;
+  	color: black;
+  	border-radius: 20px;
+  	background-size:cover !important;
+  	background-position: center !important;
+  	background-repeat: no-repeat !important;
+}
+#image-preview input {
+  	line-height: 200px;
+  	font-size: 200px;
+  	position: absolute;
+  	opacity: 0;
+  	z-index: 10;
+}
+#image-preview label {
+  	position: absolute;
+  	z-index: 5;
+  	opacity: 0.8;
+  	cursor: pointer;
+  	background-color: #bdc3c7;
+  	width: 200px;
+  	height: 50px;
+  	font-size: 20px;
+  	line-height: 50px;
+  	text-transform: uppercase;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+  	margin: auto;
+  	text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+	.mainContent {
+		width: 100% !important;
+	}
+	.mainIntro {
+		display: none !important;
+	}
+	.introArea {
+		width: 100% !important;
+		height: 350px !important;
+	}
+	.introMenu {
+		width: 100% !important;
+	}
+	.footer {
+		width: 100% !important;
+		height: auto !important;
+	}
+	#imgSlider {
+		width: 100% !important;
+		height: 300px !important;
+	}
+	#rightContent {
+		display: none !important;
+	}
+	#mainMenu {
+		width: 100% !important;
+	}
+	.loginContainerMargin,.loginContainer {
+		width: 100%;
+		margin: 0 !important;
+	}
+	
+	
+
+
+}
